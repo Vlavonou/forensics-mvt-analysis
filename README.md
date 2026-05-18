@@ -201,10 +201,10 @@ MVT produit automatiquement les fichiers JSON suivants dans le dossier `output/`
 
 L'analyse forensique confirme l'**absence d'IoC connus** sur les trois terminaux au moment de l'audit. Cependant, plusieurs enseignements ressortent :
 
-- ❗ **La surface d'attaque est significative** sur les trois appareils, en particulier le Redmi 13C (101 apps tierces, 70 avec boot automatique)
-- ❗ **Les permissions excessives** constituent le risque principal en cas de compromission applicative
-- ❗ **Les composants constructeurs** (MIUI, MediaTek, Qualcomm) introduisent des vecteurs de persistance spécifiques difficilement détectables par MVT seul
-- ✅ MVT reste pertinent en investigation, mais doit être **complété par une analyse comportementale** et une surveillance en temps réel pour faire face à des menaces inconnues ou évolutives
+- **La surface d'attaque est significative** sur les trois appareils, en particulier le Redmi 13C (101 apps tierces, 70 avec boot automatique)
+- **Les permissions excessives** constituent le risque principal en cas de compromission applicative
+- **Les composants constructeurs** (MIUI, MediaTek, Qualcomm) introduisent des vecteurs de persistance spécifiques difficilement détectables par MVT seul
+- MVT reste pertinent en investigation, mais doit être **complété par une analyse comportementale** et une surveillance en temps réel pour faire face à des menaces inconnues ou évolutives
 
 > La sécurité mobile ne se résume pas à l'absence d'IoC : elle repose sur une gestion rigoureuse des permissions, une surveillance des processus critiques et une compréhension fine de l'architecture système.
 
